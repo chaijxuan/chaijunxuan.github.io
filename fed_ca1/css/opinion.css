@@ -1,0 +1,106 @@
+/* opinion.css */
+
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 60px;
+    /* Adds top padding to avoid content overlapping with fixed header */
+}
+
+/* Header styles */
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #343a40 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40 !important;
+}
+
+/* Content styles */
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+blockquote {
+    font-size: 20px;
+}
+
+blockquote footer {
+    color: #777;
+}
+
+/* Custom styles for specific elements */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+
+.imgs {
+    height: 300px;
+    width: 680px;
+
+}
+
+.container .row .col-md-6 p {
+    margin-bottom: 30px;
+}
+
+.container.text-center h2 {
+    margin-bottom: 40px;
+}
+
+/*to create border for the goals part*/
+.container .table .content{
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer.blockquote-footer {
+    font-size: 18px;
+    color: #555;
+}
