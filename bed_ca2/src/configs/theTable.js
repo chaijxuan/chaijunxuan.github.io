@@ -10,7 +10,6 @@ const callback = (error, results, fields) => {
   }
   process.exit();
 }
-
 bcrypt.hash('1234', saltRounds, (error, hash) => {
   if (error) {
     console.error("Error hashing password:", error);
